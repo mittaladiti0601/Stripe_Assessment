@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payment</title>
+        <link rel="stylesheet" href="Payment.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card-details">
+                <h2>Complete Payment</h2>
+                <p>Enter your credit or debit card details below</p>
+                <form>
+                    <div class="form-group">
+                        <label for="cardNumber"></label>
+                        <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="expiryDate"></label>
+                        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv"></label>
+                        <input type="text" id="cvv" name="cvv" placeholder="CVV">
+                    </div>
+                </form>
+                <button class="confirm-payment-button"><a href="Plan.html">Confirm Payment</a></button>
+            </div>
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="order-details">
+                    <div class="order-detail">
+                        <span class="detail-label">Plan Name:</span>
+                        <span class="detail-value">Basic</span>
+                    </div>
+                    <div class="detail-line"></div>
+                    <div class="order-detail">
+                        <span class="detail-label">Billing Cycle:</span>
+                        <span class="detail-value">Monthly</span>
+                    </div>
+                    <div class="detail-line"></div>
+                    <div class="order-detail">
+                        <span class="detail-label">Plan Price:</span>
+                        <span class="detail-value">$10.00</span>
+                    </div>
+                    <div class="detail-line"></div>
+                </div>
+        </div>
+        <script src="Payment.js"></script>
+    </body>
+</html>

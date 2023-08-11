@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(35, 35, 111);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.plan-details {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    font-size: 17px;
+    font-weight: 550;
+}
+
+#plan-name {
+    font-size: 14px; 
+    color: #333;
+    margin-top: 15px;
+    font-weight: 600;
+    color: rgb(110, 107, 107);
+}
+
+#billing-cycle{
+    font-size: 12px; 
+    color: #333;
+    opacity: 0.4;
+    font-weight: 600;
+}
+
+h1{
+    white-space: nowrap;
+}
+
+#plan-price{
+    white-space: nowrap;
+}
+
+.inline-para{
+    display: inline;
+    margin: 0; /* Remove any default margin */
+    padding: 0;
+}
+
+
+/* Style for the status section */
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.status-text {
+    font-weight: bold;
+    color: rgb(74, 74, 162);
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+    padding: 2px 5px;
+    margin-bottom: 0px;
+    background-color: #59b1f8;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Style for the cancel button */
+.cancel-button {
+    background: none;
+    color: rgb(74, 74, 162);
+    border: none;
+    padding: 0;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Style for the change plan button */
+.change-plan-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style for the message */
+.message {
+    text-align: center;
+}

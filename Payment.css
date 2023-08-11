@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(35, 35, 111);
+}
+
+/* Basic styling for the container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styling for the card details form */
+.card-details {
+    flex: 0.5;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 300px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left: none;
+}
+
+.card-details h2 {
+    margin-bottom: 15px;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.card-details p{
+    white-space: nowrap;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    margin-left: 20px;
+}
+
+.card-details form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.card-details .form-group {
+    display: flex;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.card-details label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.card-details input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.confirm-payment-button {
+    padding: 10px 20px;
+    background-color: rgb(35, 35, 111); /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.confirm-payment-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.confirm-payment-button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for the order summary */
+.order-summary {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 500px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-right: none;
+    background-color: #EDEDED;
+}
+
+.order-summary h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.order-details {
+    margin-top: 20px;
+}
+
+.order-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.detail-label {
+    font-weight: bold;
+}
+
+.detail-value {
+    color: #555;
+}
+
+.detail-line {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
